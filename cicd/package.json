@@ -1,0 +1,15 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "AWS CDK application for deploying pipeline that will deploy infrastructure and updates",
+  "main": "",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cdk": "^2.131.0"
+  },
+  "dependencies": {
+  }
+}
