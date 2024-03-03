@@ -1,8 +1,8 @@
 {
-  "name": "what",
+  "name": "cicd",
   "version": "0.1.0",
   "bin": {
-    "what": "bin/what.js"
+    "app": "app.js"
   },
   "scripts": {
     "build": "tsc",
