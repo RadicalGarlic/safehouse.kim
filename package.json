@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "npm run build && aws s3 rm s3://safehouse.kim --recursive && aws s3 cp --recursive dist/safehouse.kim/browser s3://safehouse.kim"
   },
   "private": true,
   "dependencies": {
