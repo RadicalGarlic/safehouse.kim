@@ -11,5 +11,5 @@ export const routes: Routes = [
   {
     path: 'wiki',
     component: WikiComponent
-  }
+  },
 ];
