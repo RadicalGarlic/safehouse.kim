@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-wiki',
   standalone: true,
   templateUrl: './wiki.component.html',
-  styleUrl: './wiki.component.sass'
+  styleUrl: './wiki.component.scss'
 })
 export class WikiComponent {
 
