@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ViewportScroller } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -10,9 +9,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './cy-borg-lore.component.scss'
 })
 export class CyBorgLoreComponent {
-  constructor(private viewportScroller: ViewportScroller) {}
-
-  public scrollToId(elementId: string): void {
-    this.viewportScroller.scrollToAnchor(elementId);
-  }
+  constructor() {}
 }
