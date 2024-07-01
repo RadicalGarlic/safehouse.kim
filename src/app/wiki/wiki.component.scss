@@ -2,7 +2,11 @@ p {
   margin: 0;
 }
 
-// table, tr, td {
-//   border: 1px solid;
-//   border-collapse: collapse;
-// }
+table, tr, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 4px;
+}
