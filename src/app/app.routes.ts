@@ -6,6 +6,7 @@ import { WritingTopicsComponent } from './writing-topics/writing-topics.componen
 import { CyBorgComponent } from './cy-borg/cy-borg.component';
 import { CyBorgLoreComponent } from './cy-borg/cy-borg-lore/cy-borg-lore.component';
 import { Tekken7Component } from './tekken-7/tekken-7.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 export const RoutePaths = {
   wiki: 'wiki',
@@ -40,5 +41,9 @@ export const routes: Routes = [
   {
     path: RoutePaths.tekken7,
     component: Tekken7Component
+  },
+  {
+    path: RoutePaths.shoppingList,
+    component: ShoppingListComponent
   }
 ];
